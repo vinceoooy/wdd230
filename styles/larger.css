@@ -1,0 +1,11 @@
+@media(min-width: 768px ) {
+    nav ul {
+        display: flex;
+    }
+    nav ul li{
+        flex: 1 1 100%
+    }
+    .grid-container {
+        grid-template-columns: 2fr 1fr;
+    }
+}
