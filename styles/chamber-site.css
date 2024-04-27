@@ -1,0 +1,127 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Sora:wght@100..800&display=swap");
+
+:root {
+    /* color schema  */
+    --background-color: #ffffff;
+    --primary-color: #1976d3;
+    --secondary-color: #14447f ;
+    --accent1-color: #c8c8c8;
+    --accent2-color: #f7941f;
+    --accent3-color: #a7cd39;
+  
+    /* typography  */
+    --heading-font: "Roboto";
+    --paragraph-font: "Sora", Helvetica, sans-serif;
+  
+
+    --headline-color-on-white: black;
+    --headline-color-on-color: #ffffff;
+    --paragraph-color-on-white: black;
+    --paragraph-color-on-color: #ffffff;
+    --paragraph-background-color: #1976d3  ;
+    --nav-link-color: #c8c8c8;
+    --nav-background-color: #ffffff;
+    --nav-hover-link-color: #14447f;
+  }
+  
+
+body {
+    background: #ffffff;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+  }
+  h2 {
+    text-align: center;
+  }
+  hr {
+    height: 3px;
+    margin: 35px 0;
+    background: var(--accent1-color);
+  }
+  header {
+    padding: 1em;
+    text-align: center;
+    color: var(--headline-color-on-color);
+    background-color: var(--paragraph-background-color);
+  }
+  header > h1, header > p {
+    color: var(--headline-color-on-color);
+  }
+  
+  p {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
+  }
+  .scenarios p{
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-white);
+    margin-left: 100px;
+    text-align: left;
+  }
+  .colors {
+    color: white;
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td{
+    height: 3em;
+  }
+  
+  .primary {
+    background-color: var(--primary-color);
+  }
+  .secondary {
+    background-color: var(--secondary-color);
+  }
+  .accent1 {
+    background-color: var(--accent1-color);
+  }
+  .accent2{
+    background-color: var(--accent2-color);
+  }
+  .accent3{
+    background-color: var(--accent3-color);
+  }
+  
+  p.colored {
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color);
+  }
+  
+  nav {
+    background-color: var(--nav-background-color);
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  nav  {
+    list-style-type: none;
+    display: flex;
+  }
+  nav a {
+    font-weight: 700;
+    min-width: 120px;
+    text-decoration: none;
+  }
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+  }
