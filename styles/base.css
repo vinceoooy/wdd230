@@ -7,26 +7,47 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-
 header {
+    position: relative;
     display: flex;
     align-items: center; 
     justify-content: center; 
     background-color: #ccc;
 }
 
-header img{
+#profil-picture{
     margin: 5px;
     box-shadow: 0 2px 4px #0F1923;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
 main {
-    font-size: 10px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main section {
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px black;
+    min-height: 180px;
+}
+
+main ul {
+    list-style: none;
+    padding: 10px;
 }
 
 footer {
     text-align: center;
 }
+
 
 nav {
  background-color: #0F1923;
@@ -63,12 +84,9 @@ h1{
     
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
+.card li{
+    list-style: none;
 }
-
 
 .card {
     background-color: #fff;
@@ -86,4 +104,53 @@ h1{
     margin: 0;
 }
 
-  
+
+#darkBtn {
+	border: 0;
+	background: none;
+ 	position: absolute;
+    top: 3px;
+	right: 3px;
+    cursor: pointer;
+}
+#lightBtn {
+	border: 0;
+	background: none;
+ 	position: absolute;
+    top: 3px;
+    right: 3px;
+    cursor: pointer;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+ 	position: absolute;
+    right: 3px;
+    bottom: 0;
+    cursor: pointer;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "X";
+}
+
+.open a {
+	display: block;
+}
+.navigation a {
+	display: none;
+
+}
+
+.open a {
+	display: block;
+}
+
+

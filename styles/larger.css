@@ -5,7 +5,14 @@
     nav ul li{
         flex: 1 1 100%
     }
+    .navigation a {
+        display: block;
+    }
     .grid-container {
         grid-template-columns: 2fr 1fr;
     }
+    #menu {
+        display: none;
+    }
+
 }
