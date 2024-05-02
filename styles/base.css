@@ -84,3 +84,24 @@ h1{
     border-radius: 5px; 
     margin: 0;
 }
+.week-list {
+list-style-type: none; 
+padding: 1rem; 
+}
+
+.week-list li {
+margin: 5px 0;
+}
+
+.week-list li ul {
+display: inline;
+}
+
+.week-list li ul li {
+display: inline; 
+}
+
+.week-list li ul li:not(:last-child)::after {
+content: " | "; 
+}
+  
