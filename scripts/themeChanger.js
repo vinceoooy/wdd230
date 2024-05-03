@@ -17,7 +17,8 @@ const footer = document.querySelector("footer");
 
 
 modeButton.addEventListener("click", () => {
-
+    moon.style.display = moon.style.display === "none" ? "inline" : "none";
+    sun.style.display = sun.style.display === "none" ? "inline" : "none";
     body.classList.toggle("dark");
     header.classList.toggle("dark");
     profilPicture.classList.toggle("dark");
