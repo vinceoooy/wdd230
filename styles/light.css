@@ -1,0 +1,60 @@
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #ccc;
+}
+
+#profil-picture{
+    box-shadow: 0 2px 4px #0F1923;
+}
+main section {
+    border: 1px solid darkgray;
+    box-shadow: 0 0 10px black;
+}
+
+nav {
+ background-color: #0F1923;
+}
+
+nav a{
+    color: #fff;
+}
+
+nav a:hover{
+    color: yellow;
+    background-color: #0F1923;
+}
+.active {
+    color: yellow;
+    background-color: #0F1923;
+}
+
+h1{
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card ul li a:visited{
+    color:darkmagenta;
+}
+.card h2 {
+    background-color: #0F1923; 
+    color: #fff; 
+}
+
+#menu {
+	color: #000;
+}
+
+footer {
+    background-color: #ccc;
+}

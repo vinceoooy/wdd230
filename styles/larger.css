@@ -1,9 +1,12 @@
 @media(min-width: 768px ) {
+    body {
+        max-width: 1000px;
+    }
     nav ul {
         display: flex;
     }
     nav ul li{
-        flex: 1 1 100%
+        flex: 1 1 100%;
     }
     .navigation a {
         display: block;

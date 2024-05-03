@@ -1,0 +1,58 @@
+body.dark {
+    background-color: #302f2f;
+    color: #dbdbdb;
+}
+header.dark {
+    background-color: #1b1a1a;
+}
+
+#profil-picture.dark {
+    box-shadow: 0 2px 4px #8a8a8a;
+}
+main section {
+    border: 1px solid darkgray;
+    box-shadow: 0 0 10px black;
+}
+
+nav.dark {
+ background-color: #24384d;
+}
+
+nav.dark a {
+    color: #dbdbdb;
+    
+}
+nav.dark a:hover {
+    color: rgb(245, 245, 103);
+    background-color: #24384d;
+}
+.active.dark {
+    color: rgb(245, 245, 103);
+    background-color: #24384d;
+}
+
+h1.dark {
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.card.dark {
+    background-color: #d30a0a;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card.dark ul li a:visited {
+   color:#e96519;
+}
+
+.card.dark  h2{
+    background-color: #2d353b; 
+}
+
+#menu.dark {
+	color: #dbdbdb;
+}
+
+footer.dark {
+    background-color: #1b1a1a;
+}

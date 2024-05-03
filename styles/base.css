@@ -1,8 +1,5 @@
 body {
     align-items: center;
-    max-width: 1000px;
-    background-color: #f0f0f0;
-    color: #333;
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
@@ -12,12 +9,10 @@ header {
     display: flex;
     align-items: center; 
     justify-content: center; 
-    background-color: #ccc;
 }
 
 #profil-picture{
     margin: 5px;
-    box-shadow: 0 2px 4px #0F1923;
 }
 
 .grid-container {
@@ -32,10 +27,8 @@ main {
 }
 
 main section {
-    border: 1px solid darkgray;
     border-radius: 10px;
     margin: 10px;
-    box-shadow: 0 0 10px black;
     min-height: 180px;
 }
 
@@ -45,12 +38,12 @@ main ul {
 }
 
 footer {
+    padding: 2em;
     text-align: center;
 }
 
 
 nav {
- background-color: #0F1923;
  margin: 0 auto;
  max-width: 1000px;
 }
@@ -63,24 +56,16 @@ nav ul {
 
 nav a{
     display: block;
-    color: #fff;
     text-align: center;
     text-decoration: none;
     padding: .5rem;
 }
-nav a:hover{
-    color: yellow;
-    background-color: #0F1923;
-}
-.active {
-    color: yellow;
-    background-color: #0F1923;
-}
+
+
 
 h1{
     text-align: center;
     margin: 1rem 0 .5rem;
-    border-bottom: 1px solid #ccc;
     
 }
 
@@ -89,23 +74,19 @@ h1{
 }
 
 .card {
-    background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .card h2 {
     text-align: center; 
-    background-color: #0F1923; 
-    color: #fff; 
     padding: 10px; 
     border-radius: 5px; 
     margin: 0;
 }
 
 
-#darkBtn {
+.darkBtn {
 	border: 0;
 	background: none;
  	position: absolute;
@@ -113,7 +94,7 @@ h1{
 	right: 3px;
     cursor: pointer;
 }
-#lightBtn {
+.lightBtn {
 	border: 0;
 	background: none;
  	position: absolute;
@@ -126,7 +107,6 @@ h1{
 	font-size: 1.5rem;
 	border: 0;
 	background: none;
-	color: #000;
  	position: absolute;
     right: 3px;
     bottom: 0;
