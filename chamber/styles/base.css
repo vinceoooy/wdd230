@@ -1,0 +1,75 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    display: block;
+}
+
+header {
+    display:block;
+    background: lightpink;
+
+}
+
+ul li{
+    list-style-type: none;
+}
+
+
+.socmed-links{
+    display: none;
+    background: rgb(101, 243, 96); 
+}
+
+.page-nav{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background: #fff; 
+}
+
+.home-links{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.hero {
+    text-align: justify;
+    background: coral;
+    line-height:3; 
+    text-indent: 15px; 
+}
+.current-event {
+    text-align: justify;
+    background: yellow;
+    line-height:3; 
+    text-indent: 15px; 
+}
+.weather {
+    text-align: justify;
+    background: rgb(247, 107, 247);
+    line-height:3; 
+    text-indent: 15px; 
+}
+.spotlights {
+    text-align: justify;
+    background: rgb(141, 127, 223);
+    line-height:3; 
+    text-indent: 15px; 
+}
+
+
+
+
+footer {
+    background: wheat;
+    padding: 2rem;
+    text-align: center;
+}
+
