@@ -9,10 +9,6 @@ header.dark {
 #profil-picture.dark {
     box-shadow: 0 2px 4px #8a8a8a;
 }
-main section {
-    border: 1px solid darkgray;
-    box-shadow: 0 0 10px black;
-}
 
 nav.dark {
  background-color: #24384d;
@@ -37,16 +33,19 @@ h1.dark {
 }
 
 .card.dark {
-    background-color: #d30a0a;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #757373;
+    box-shadow: 0 5px 5px rgba(255, 255, 255, 0.1);
 }
 
+.card.dark ul li a{
+    color:#ffffff;
+}
 .card.dark ul li a:visited {
-   color:#e96519;
+   color:rgb(245, 245, 103);
 }
 
 .card.dark  h2{
-    background-color: #2d353b; 
+    background-color: #24384d; 
 }
 
 #menu.dark {

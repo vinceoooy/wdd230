@@ -15,11 +15,7 @@ header {
     margin: 5px;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
 
-}
 main {
     margin: auto;
     display: grid;
@@ -95,6 +91,7 @@ h1{
     cursor: pointer;
 }
 .lightBtn {
+    display: none;
 	border: 0;
 	background: none;
  	position: absolute;
