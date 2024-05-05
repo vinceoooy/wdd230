@@ -20,18 +20,44 @@ ul li{
     background: rgb(101, 243, 96); 
 }
 
-.page-nav{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    background: #fff; 
-}
 
 .home-links{
     text-align: center;
 }
 
+.navigation{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background: #fff; 
+}
 
 
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+    right: 0;
+ 	position: absolute;
+    cursor: pointer;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "X";
+}
+.open a {
+	display: block;
+}
+.navigation a {
+	display: none;
+}
+
+.open a {
+	display: block;
+}
 
 
 
@@ -73,3 +99,11 @@ footer {
     text-align: center;
 }
 
+.footer-links{
+    justify-content: center;
+    display: flex;
+ }
+ .footer-links a{
+    color:black;
+    margin: 5px;
+ }
