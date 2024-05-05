@@ -72,6 +72,11 @@ ul li{
     line-height:3; 
     text-indent: 15px; 
 }
+a.book {
+    font: 20px;
+    color: black;
+}
+
 .hero img{
     width: 95%;
     display: block; /* This ensures that margins auto work */
