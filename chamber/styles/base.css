@@ -16,6 +16,7 @@ ul li{
 
 
 .socmed-links{
+    font-size: small;
     display: none;
     background: rgb(101, 243, 96); 
 }
@@ -70,6 +71,11 @@ ul li{
     background: coral;
     line-height:3; 
     text-indent: 15px; 
+}
+.hero img{
+    width: 95%;
+    display: block; /* This ensures that margins auto work */
+    margin: 0 auto;
 }
 .current-event {
     text-align: justify;
