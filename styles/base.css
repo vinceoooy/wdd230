@@ -60,6 +60,11 @@ main ul {
     text-align: left;
     margin-left: 20px;
 }
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 footer {
     padding: 2em;
