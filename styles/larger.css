@@ -1,6 +1,7 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 720px) {
     body {
-        max-width: 1000px;
+        max-width: 100%;
+        text-align: center;
     }
     nav ul {
         display: flex;
@@ -11,12 +12,24 @@
     .navigation a {
         display: block;
     }
+    .navigation{
+        width: 100%;
+    }
     main {
         display: grid;
         grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto 1fr;
+    }
+    main h1 {
+        text-align: left;
+        grid-column: 1 / 3;
+        margin-left: 1rem;
     }
     #menu {
         display: none;
+    }
+    .hero{
+        grid-column: 1 / 3;
     }
 
 }

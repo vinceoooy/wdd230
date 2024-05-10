@@ -41,9 +41,19 @@
             <li><a href="#">Form</a></li>
         </ul>
     </nav>
-
-    <h1>WDD 230: Web Frontend Development</h1>
+    
     <main>
+        <div class="hero">
+            <picture>
+              <source srcset="images/hero-medium.webp" media="(max-width: 400px)">
+              <source srcset="images/hero-large.webp" media="(max-width: 960px)">
+              <img src="images/hero-large.webp" alt="Italy Temply" width="1500" height="750">
+            </picture>
+            <div class="herolabel">
+                <p>Rome Italy Temple</p>
+            </div>
+        </div>
+        <h1>WDD 230: Web Frontend Development</h1>
         <section class="card">
             <h2>Learning Activities</h2>
             <ul>
@@ -76,9 +86,12 @@
         <section class="card">
             <h2>Information</h2>
             <p>Weather:[]</p>
-            <p>Numbers of visits: []</p>
+            <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
         </section>
     </main>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252277.2708756727!2d125.41798104842236!3d8.89517333924631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301e998b1704fcf%3A0x85e95810384ea2d6!2sButuan%20City%2C%20Agusan%20Del%20Norte!5e0!3m2!1sen!2sph!4v1715303618485!5m2!1sen!2sph" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     <footer>
         <p>&#169; <span id="copyrightYear"></span> | Vince Pag-ong | Philippines <img src="images/PHflag.png"  alt="Philippine Flag"></p>
         <p>Last Modification: <span id="lastModified"></span></p>
@@ -86,5 +99,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamBurger.js"></script>
     <script src="scripts/themeChanger.js"></script>
+    <script src="scripts/visits.js"></script>
 </body>
 </html>

@@ -1,3 +1,6 @@
+html{
+    min-width: 400px;
+}
 body {
     align-items: center;
     padding: 0;
@@ -13,6 +16,31 @@ header {
 
 #profil-picture{
     margin: 5px;
+}
+
+.hero{
+    position: relative;
+}
+.hero img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+
+}
+.herolabel {
+    position: absolute;
+    top: 20px;
+    left: 5%;
+	background:#ccc;
+	padding: 1rem;
+	opacity: .75;
+}
+.herolabel p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 20px;
 }
 
 
@@ -31,6 +59,8 @@ main section {
 main ul {
     list-style: none;
     padding: 10px;
+    text-align: left;
+    margin-left: 20px;
 }
 
 footer {
@@ -41,7 +71,6 @@ footer {
 
 nav {
  margin: 0 auto;
- max-width: 1000px;
 }
 
 nav ul {
@@ -56,7 +85,6 @@ nav a{
     text-decoration: none;
     padding: .5rem;
 }
-
 
 
 h1{
