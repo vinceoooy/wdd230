@@ -1,7 +1,5 @@
-html{
-    min-width: 400px;
-}
 body {
+    min-width: 400px;
     align-items: center;
     padding: 0;
     font-family: "Roboto", sans-serif;
