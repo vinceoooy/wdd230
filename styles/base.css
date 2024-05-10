@@ -65,7 +65,11 @@ main ul {
     justify-content: center;
     align-items: center;
 }
-
+.map iframe{
+    width: 95%;
+    height: 450px;
+    padding: 1rem;
+}
 footer {
     padding: 2em;
     text-align: center;
