@@ -1,4 +1,6 @@
+
 body {
+    max-width: 1900px;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     display: block;
@@ -7,7 +9,7 @@ body {
 header {
     display:block;
     background: lightpink;
-
+    border-bottom: 2px solid black;
 }
 
 ul li{
@@ -113,8 +115,27 @@ footer {
 .footer-links{
     justify-content: center;
     display: flex;
- }
+}
  .footer-links a{
     color:black;
     margin: 5px;
- }
+}
+
+.discover{
+ display: grid;
+ grid-template-columns: 1fr 2fr;
+}
+main div img {
+    width: 100%;
+}
+.sidebar {
+
+    grid-column: 1;
+    /* Additional styling */
+}
+
+.main-content {
+    grid-column: 2;
+    /* Additional styling */
+}
+

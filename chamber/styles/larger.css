@@ -49,7 +49,11 @@
     .navigation a{
         display: inline;
     }
-    
+    html{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
 
 
 }
