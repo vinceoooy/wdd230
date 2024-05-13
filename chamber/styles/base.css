@@ -1,6 +1,7 @@
 
 body {
     max-width: 1900px;
+    height: 100%;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     display: block;
@@ -121,9 +122,13 @@ footer {
     margin: 5px;
 }
 
+
+
+
 .discover{
  display: grid;
  grid-template-columns: 1fr 2fr;
+ grid-template-rows: auto;
 }
 main div img {
     width: 100%;
