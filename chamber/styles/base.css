@@ -124,11 +124,14 @@ footer {
 
 
 
-
+.navigation div{
+    position: fixed;
+    right: 2rem;
+}
 .discover{
- display: grid;
- grid-template-columns: 1fr 2fr;
- grid-template-rows: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
 }
 main div img {
     width: 100%;
