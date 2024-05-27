@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vince Pag-ong - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="Welcome to Vince Pag-ong's course assignment portal for WDD 230 - Web Frontend Development. Explore the various projects of the whole course, including chamber, site plan, and form.">
+    <meta name="author" content="Vince Pag-ong">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/dark.css">
+    <link rel="stylesheet" href="styles/light.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <meta property="og:title" content="WDD 230 (Web Frontend Development) progress and task links">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://vinceoooy.github.io/wdd230/images/hometown.jpg">
+    <meta property="og:url" content="https://vinceoooy.github.io/wdd230">
+</head>
+<body>
+    <header>
+        <img id="profil-picture" src="images/profile.jpg"  alt="Vince Pag-ong's Profile Picture"  width="75" height="100">
+        <span>Casey Vince T. Pag-ong</span>
+        <button id="menu"></button>
+        <div id="mode">
+            <img src="images/moon.svg" alt="dark mode" class="darkBtn" width="23" height="23">
+            <img src="images/sun.svg" alt="light mode" class="lightBtn" width="23" height="23">
+        </div>
+    </header>
+    
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="form.html" class="active">Form</a></li>
+        </ul>
+    </nav>
+    
+    <main id="formPage">
+        <h1>Form Page</h1>
+        <form action="record.html" method="get">
+            <fieldset>
+                <legend>Login Details</legend>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="at least 8 characters" required pattern=".{8,}$">
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password" placeholder="repeat password" required>
+            </fieldset>
+            <fieldset>
+                <legend>Email</legend>
+                <label for="email">School Email:</label>
+                <input title="Please enter a valid email address" type="email" id="email" name="email" placeholder="@byui.edu" required pattern="[a-zA-Z0-9._%+\-]+@byui\.edu" title="Please enter a valid email address">
+            </fieldset>
+            <fieldset>
+                <legend>Page Rating</legend>
+                <label for="rating">Rating:</label>
+                <input type="range" id="rating" name="rating" min="1" max="10" step="1" oninput="ratingOutput.value = rating.value">
+                <output id="ratingOutput">5</output>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&#169; <span id="copyrightYear"></span> | Vince Pag-ong | Philippines <img src="images/PHflag.png"  alt="Philippine Flag"></p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamBurger.js"></script>
+    <script src="scripts/themeChanger.js"></script>
+    <script src="scripts/confirmPassword.js"></script>
+</body>
+</html>
