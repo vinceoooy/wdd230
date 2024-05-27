@@ -43,8 +43,11 @@ h1{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.card ul li a:visited{
-    color:darkmagenta;
+.card a:visited, .card a:link, .card a:active{
+    color:navy;
+}
+.card a:hover{
+    color: purple;
 }
 .card h2 {
     background-color: #0F1923; 
