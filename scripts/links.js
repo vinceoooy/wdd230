@@ -14,7 +14,7 @@ function displayLinks(data) {
 
     weeks.forEach(week => {
         const weekItem = document.createElement('li');
-        weekItem.innerHTML = `${week.week}:`;
+        weekItem.innerHTML = `${week.week}: `;
 
         week.links.forEach(link => {
             const linkElement = document.createElement('a');
