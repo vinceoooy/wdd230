@@ -46,7 +46,7 @@ h1{
 .card a:link, .card a:active{
     color:navy;
 }
-.cardul li a:visited {
+.card ul li a:visited {
     color:purple;
  }
 .card h2 {
