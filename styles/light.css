@@ -46,9 +46,9 @@ h1{
 .card a:link, .card a:active{
     color:navy;
 }
-.card a:hover{
-    color: purple;
-}
+.cardul li a:visited {
+    color:purple;
+ }
 .card h2 {
     background-color: #0F1923; 
     color: #fff; 
