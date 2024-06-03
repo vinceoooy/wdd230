@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Vross Meatshoppe",
+        "address": "Montilla Blvd., Butuan City, Agusan Del Norte",
+        "phone": "085-816-0807",
+        "website": "https://www.facebook.com/Vrossmeat/",
+        "image": "vross.jpg",
+        "membershipLevel": "Gold"
+    },
+    {
+        "name": "Philippine Airlines",
+        "address": "Bancasi Rotunda, Butuan City, Agusan Del Norte",
+        "phone": "085-341-5142",
+        "website": "https://www.philippineairlines.com/",
+        "image": "PAL.jpg",
+        "membershipLevel": "Silver"
+    },
+    {
+        "name": "Puregold Price Club, Inc.",
+        "address": "005 San Jose St, Butuan City, 8600 Agusan Del Norte",
+        "phone": "085-225-0020",
+        "website": "http://www.puregold.com.ph/",
+        "image": "puregold.jpg",
+        "membershipLevel": "Platinum"
+    },
+    {
+        "name": "Equi-Parco Construction",
+        "address": "Libertad, Butuan City, Agusan Del Norte",
+        "phone": "085-341-1443",
+        "website": "https://ph.linkedin.com/company/equi-parco",
+        "image": "equi.jpg",
+        "membershipLevel": "Gold"
+    },
+    {
+        "name": "East West Placement Center Inc ",
+        "address": "5th st. South Dr, Butuan City, Agusan Del Norte",
+        "phone": "0917-849-7869",
+        "website": "https://www.facebook.com/profile.php?id=100090644804207",
+        "image": "eastwest.jpg",
+        "membershipLevel": "Silver"
+    },
+    {
+        "name": "DXBC (693 AM) RMN Butuan",
+        "address": "I. Elloso St, Butuan City, Agusan Del Norte",
+        "phone": "0920-825-4257",
+        "website": "https://www.facebook.com/rmndxbcbutuan693/",
+        "image": "dxbc.jpg",
+        "membershipLevel": "Platinum"
+    },
+    {
+        "name": "SM Supermalls",
+        "address": "J C Aquino Ave, Butuan City, Agusan Del Norte",
+        "phone": "789-456-1230",
+        "website": "https://www.smsupermalls.com/",
+        "image": "SM_Supermalls_logo_2022.png",
+        "membershipLevel": "Gold"
+    }
+]
