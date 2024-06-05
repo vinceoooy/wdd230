@@ -105,9 +105,7 @@ ul a{
     transition: background-color 0.3s ease; 
   }
   
-  .book:hover {
-    background-color: #0056b3; 
-  }
+  
   
 
 .hero img{
@@ -247,9 +245,7 @@ figcaption {
     text-align: center; 
 }
 
-.spotlight a:hover {
-    background-color: #0056b3;
-}
+
 
 
 
@@ -334,7 +330,3 @@ main.discover {
     cursor: pointer;
 }
 
-/* Style the close button on hover */
-#close-banner:hover {
-    color: white;
-}

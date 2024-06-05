@@ -76,4 +76,13 @@
     .main-content {
         grid-column: 2;
     }
+    #close-banner:hover {
+        color: white;
+    }
+    .spotlight a:hover {
+        background-color: #0056b3;
+    }
+    .book:hover {
+        background-color: #0056b3; 
+      }
 }
