@@ -67,10 +67,11 @@ input[type="submit"]:hover {
 
 .benefits-container {
     max-width: 600px;
-    background-color: #f9f9f9;
+    background-color: #bbb;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 200px;
 }
 
 .benefits-container h2 {
@@ -80,6 +81,7 @@ input[type="submit"]:hover {
 }
 
 .benefits-container ul {
+    color: black;
     list-style: none;
     padding: 0;
 }

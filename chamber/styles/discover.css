@@ -1,0 +1,43 @@
+
+.sidebar {
+    grid-column: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sidebar p {
+    font-size: 16px;
+}
+
+/* Main Content Styles */
+.main-content {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    gap: 20px;
+    padding: 20px;
+}
+
+.main-content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.main-content img {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.main-content img:hover {
+    transform: scale(1.1);
+}
+
+

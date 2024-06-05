@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/slideshow.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -23,11 +24,18 @@
 <body>
     <header>
         <nav class="socmed-links">
-            <h1>Butuan city Chamber of Commerce</h1>
+            <h1>Butuan City Chamber of Commerce</h1>
+            <span class="visits"></span>
             <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Twitter</a></li>
+                <a href="https://facebook.com" target="_blank"> 
+                    <img src="images/facebook.png" alt="fb icon"> Facebook
+                </a> |
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon"> Twitter 
+                </a> |
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/messenger.png" alt="messenger icon"> Message Us
+                </a>
             </ul>
         </nav>    
         <button id="menu"></button>
@@ -39,31 +47,54 @@
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html" class="active">Join</a></li>
+                <li><a href="join.html">Join</a></li>
             </ul>
         </nav>
     </header>
-
+    <div id="event-banner" class="event-banner">
+        <img id="meeting-img" src="images/handshake.jpg" alt="meeting-img">
+        <p>Join us for the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</p>
+        <button id="close-banner">X</button>
+    </div>
     <main>
         <section class="hero">
             <div id="hero-box">
                 <img id="hero-img" src="images/hero.svg" alt="Hero Image">
                 <div class="button-box">
-                    <a class="book" href="join.html">Call to action button</a>
+                    <a class="book" href="join.html">Join Now!</a>
                 </div>
             </div>
         </section>
         <section class="current-event">
-            <h2>Current Events</h2>
-            <!-- Insert current event(s) content here -->
+
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="images/1-about-butuan-1689331970.webp">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/2-2019-03-13.webp">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/3-26220407731_cde9252deb_b.webp">
+                </div>
+                <!-- more images as needed -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
         </section>
+        
         <section class="weather">
-            <h2>Weather</h2>
-            <!-- Insert weather card content here -->
+            <h2>Current weather in Butuan City</h2>
+            <div id="current-weather">
+                <p id="current-temp"></p>
+                <img id="weather-icon" alt="Weather Icon">
+                <figcaption></figcaption>
+            </div>
+            <div id="forecast-container" class="forecast">
+            </div>        
         </section>
         <section class="spotlights">
             <h2>Spotlights</h2>
-            <!-- Insert spotlight company advertisements content here -->
         </section>
     </main>
     <footer>
@@ -77,5 +108,12 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamBurger.js"></script>
+    <script src="scripts/visitCounter.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/spotlight.js"></script>
+    <script src="scripts/slideshow.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>
 </html>
+
+
